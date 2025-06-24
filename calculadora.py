@@ -4,13 +4,12 @@ print ('escolha as seguintes operações...')
 print ('soma, divisao,multiplicaçao,subtraçao...')
 escolha = input('digite uma operaçao').strip().lower()
 
-if escolha == '+':
+if escolha == 'soma':
 
     n =int(input('digite o numero'))
     n1 =int(input('digite outro'))
     s = n + n1
     print(f'{n} + {n1} = {s}')
-     
 
 
 if escolha == 'divisao':
